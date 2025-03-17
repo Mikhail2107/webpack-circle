@@ -1,0 +1,33 @@
+.history-period {
+  width: 65vw;
+  font-weight: 700;
+  font-size: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 100px;
+  z-index: 1;
+
+  @media (max-width: 500px) {
+    width: 300px;
+    height: 73px;
+    font-size: 56px;
+    top: 160px;
+    left: 0;
+    transform: translate(0, 0);
+    position: relative;
+    gap: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #C7CDD9;
+  }
+}
+
+.year-begin {
+  color: #3877EE;
+}
+
+.year-end {
+  color: #EF5DA8;
+}

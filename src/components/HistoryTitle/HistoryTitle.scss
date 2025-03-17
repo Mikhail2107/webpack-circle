@@ -1,0 +1,37 @@
+.history-title {
+  display: flex;
+  width: 443px;
+  height: 134px;
+  font-weight: 700;
+  font-size: 56px;
+  position: absolute;
+  padding-left: 90px;
+  color: #42567A;
+  box-sizing: border-box;
+  top: 250px;
+  margin: 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(#3877EE, #EF5DA8);
+    
+    border-radius: inherit;
+  }
+
+  @media (max-width: 500px) {
+    width: 123px;
+    height: 48px;
+    font-size: 20px;
+    padding: 0;
+    top: 60px;
+
+    &::before {
+      display: none;
+    }
+  }
+}

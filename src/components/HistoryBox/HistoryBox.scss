@@ -1,0 +1,42 @@
+.history-box {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+
+  @media (max-width: 500px) {
+    width: 320px;
+    bottom: 30px;
+  }
+}
+
+.history-event {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 135px;
+  font-size: 20px; 
+
+  @media (max-width: 500px) {
+    width: 150px;
+    height: 114px;
+    font-size: 16px;
+  }
+}
+
+.history-year {
+  width: 41px;
+  height: 30px;
+  font-size: 25px;
+  font-weight: 400;
+  color: rgba(56, 119, 238, 1);
+}
+
+.history-year-description {
+  font-size: 20px; 
+  font-weight: 400;
+  color: rgba(66, 86, 122, 1);
+
+  @media (max-width: 500px) {
+    font-size: 10px;
+  }
+}
