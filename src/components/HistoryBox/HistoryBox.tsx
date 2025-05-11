@@ -37,7 +37,7 @@ function HistoryBox({ activeId, historyDate }: HistoryBoxProps) {
           {historyDate[activeId - 1].years &&
           Object.entries(historyDate[activeId - 1].years).map(
             ([year, description]) => (
-              <SwiperSlide key={year} className="history-event" style={{width: isMobile ? '150px' : "350px"}}>
+              <SwiperSlide key={year} className="history-event" style={{width: isMobile ? '150px' : "250px"}}>
                 <span className="history-year">{year}</span>
                 <span className="history-year-description">
                   {description}

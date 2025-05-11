@@ -1,14 +1,13 @@
 .history-title {
   display: flex;
-  width: 443px;
-  height: 134px;
+  max-width: 25vw; 
   font-weight: 700;
-  font-size: 56px;
+  font-size: 4vw; 
   position: absolute;
-  padding-left: 90px;
+  padding-left: 5vw;
   color: #42567A;
   box-sizing: border-box;
-  top: 250px;
+  top: 20vh; 
   margin: 0;
 
   &::before {
@@ -24,14 +23,14 @@
   }
 
   @media (max-width: 500px) {
-    width: 123px;
-    height: 48px;
-    font-size: 20px;
-    padding: 0;
-    top: 60px;
+    width: 55vw;
+    font-size: 3vh;
+    padding: 1.5vw;
+    top: 10vh;
 
     &::before {
       display: none;
     }
   }
+  
 }

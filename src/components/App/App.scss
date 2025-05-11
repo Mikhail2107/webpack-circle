@@ -13,15 +13,15 @@ main {
   width: 100%;
 }
 .history-container {
-  width: 1440px;
-  height: 1080px;
+  width: 90vw;
+  height: 100vh;
   position: relative;
   background-color: #F4F5F9;
 
   @media (max-width: 500px) {
     display: block;
-    width: 320px;
-    height: 568px;
-    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    // padding: 20px;
   }
 }

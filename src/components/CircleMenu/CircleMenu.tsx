@@ -1,5 +1,6 @@
 
 
+import PagesButtons from '../PagesButtons/PagesButtons';
 import './CircleMenu.scss'
 
 
@@ -19,9 +20,11 @@ interface CircleMenuProps {
 
 function CircleMenu({circleRef, menuRotate, eventList, activeId, handleRotateMenu}: CircleMenuProps){
 
+
     return (
         <>
       <div className="circle-box">
+      
       <ul className="circle-menu" ref={circleRef} style={menuRotate.style}>
         {eventList.map((event) => (
           <li key={event.id} className="circle-item" style={event.style}>
@@ -43,6 +46,7 @@ function CircleMenu({circleRef, menuRotate, eventList, activeId, handleRotateMen
           </li>
         ))}
       </ul>
+        
       </div>
         </>
     )

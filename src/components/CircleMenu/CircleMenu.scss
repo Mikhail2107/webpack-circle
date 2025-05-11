@@ -16,8 +16,8 @@
   position: relative;
   border: 1px solid rgba(66, 86, 122, 0.2);
   border-radius: 50%;
-  width: 530px;
-  height: 530px;
+  width: 28vw;
+  height: 28vw;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -34,10 +34,10 @@
 }
 
 .buttonTitle {
-  width: 6px;
-  height: 6px;
+  width: .5vw;
+  height: .5vw;
   padding: 0;
-  margin: 75px;
+  margin: 3.8vw;
   border-radius: 50%;
   font-size: 0;
   border: none;
@@ -47,31 +47,31 @@
   transition: opacity 0.5s ease; 
 
   &.active {
-    width: 50px;
-    height: 50px;
+    width: 4vw;
+    height: 4vw;
     border-radius: 50%;
     padding: 0;
-    margin: 55px;
+    margin: 2vw;
     border: 1px solid #42567A;
     background-color: #F4F5F9;
     transform: scale(1);
-    font-size: medium;
+    font-size: 1.5vw;
   }
 }
 
 .circle-info .buttonTitle.active {
   display: flex;
   align-items: center;
-  padding-left: 20px;
+  padding-left: 1.5vw;
 }
 
 .circle-item-title {
-  margin-left: 50px;
+  margin-left: 4.5vw;
   overflow: hidden;
   transition: all 0.3s ease; 
 
   &.active {
-    margin-left: 50px;
+    margin-left: 4.5vw;
     overflow: visible;
   }
 }

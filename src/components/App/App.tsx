@@ -93,10 +93,11 @@ function App() {
         <PagesButtons activeId={activeId} 
               eventList={eventList} 
               handleNextPage={handleNextPage} 
-              handlePrevPage={handlePrevPage} />   
+              handlePrevPage={handlePrevPage} />  
         <HistoryBox activeId={activeId} 
           historyDate={historyDate} />
-      </div>  
+      </div>   
+      
     </main>
      
     </>
